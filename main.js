@@ -7,6 +7,15 @@ let contenedor = document.getElementById("contenedor");
 let pic = document.getElementById("pic");
 let cerrar = document.getElementById("cerrar");
 let Creditos = document.getElementById("Creditos");
+let mostrar = document.getElementById("mostrar");
+
+mostrar.addEventListener("click", () => {
+    Creditos.style.display = "block";
+});
+
+cerrar.addEventListener("click", () => {
+    Creditos.style.display = "none";
+});
 
 divisa.addEventListener("change", (e) => {
     console.log(e.target.value);
