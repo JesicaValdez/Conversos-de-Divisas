@@ -186,3 +186,16 @@ img {
     width: 100px;
 }
 
+/* Creditos */
+#Creditos {
+    display: none;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: plum;
+    padding: 40px;
+    text-align: center;
+}

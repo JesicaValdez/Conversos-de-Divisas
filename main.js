@@ -4,8 +4,9 @@ let = divisa = document.getElementById("divisa");
 let resultado = document.getElementById ("resultado");
 let modo = document.getElementById("modo");
 let contenedor = document.getElementById("contenedor");
-
 let pic = document.getElementById("pic");
+let cerrar = document.getElementById("cerrar");
+let Creditos = document.getElementById("Creditos");
 
 divisa.addEventListener("change", (e) => {
     console.log(e.target.value);
